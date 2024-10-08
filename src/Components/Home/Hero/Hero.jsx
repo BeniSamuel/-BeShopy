@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className=' flex md:justify-between items-center bg-[#C5F5D6] px-20 h-[75vh]'>
+    <div className=' flex md:justify-between items-center bg-[#C5F5D6] px-20 h-[90vh]'>
         <div className=' flex flex-col gap-6'>
             <div className=' text-[#224F34] font-semibold text-3xl'>
                 Discover fine product<br/>
