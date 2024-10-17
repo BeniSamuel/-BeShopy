@@ -27,5 +27,4 @@ const bestSelling = [
     }
 ];
 
-
-module.exports = bestSelling;
+export default bestSelling

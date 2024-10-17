@@ -3,21 +3,22 @@ import starSvg from '../../../assets/star.svg'
 
 const BestCard = (props) => {
   return (
-    <div>
+    <div className=' flex flex-col gap-3'>
         {/*Product Cover*/}
-        <div>
-            <img source={props.imgSource}/>
+        <div className=' bg-[#93B9A2]'>
+            <img src={props.imgSource} className=' h-72'/>
         </div>
         {/* Product Description */}
-        <div>
+        <div className=' flex flex-col items-center'>
             <div>
                 <p>{props.description}</p>
             </div>
-            <div>
-                <div>{props.price} |</div>
-                <div>
-                    <p>{props.ratings}</p>
-                    <img source={starSvg}/>
+            <div className=' flex flex-row items-center gap-4  '>
+                <div>${props.price}</div>
+                <div> | </div>
+                <div className=' flex flex-row items-center gap-2'>
+                    <p>{props.rating}</p>
+                    <img src={starSvg} className=' h-4'/>
                 </div>
             </div>
         </div>
