@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../../assets/Hero/Hero_1.png'
-import google from '../../assets/google.svg'
+import google from '../../assets/Google.svg'
 
 const Form = () => {
   return (
