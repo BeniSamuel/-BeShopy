@@ -11,7 +11,7 @@ const BestCard = (props) => {
         {/* Product Description */}
         <div className=' flex flex-col items-center'>
             <div>
-                <p className=' font-poppins'>{props.description}</p>
+                <p className=' font-poppins font-medium'>{props.description}</p>
             </div>
             <div className=' flex flex-row items-center gap-4  '>
                 <div>${props.price}</div>

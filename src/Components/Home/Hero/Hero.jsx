@@ -22,7 +22,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className=' bg-[#6BC785] h-[28rem] w-96 rounded-tr-[6rem] rounded-bl-[6rem]'>
+            <div className=' bg-[#6BC785] h-[28rem] w-96 rounded-tl-[5rem] rounded-br-[5rem] rounded-tr-[3rem] rounded-bl-[3rem]'>
                 <img src={hero_img} className=' h-[28rem]'/>
             </div>
         </div>
