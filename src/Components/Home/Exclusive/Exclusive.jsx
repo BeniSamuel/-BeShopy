@@ -4,7 +4,7 @@ import img1 from '../../../assets/Exclusive/Exclusive_1.png'
 const Exclusive = () => {
   return (
     <div className=' flex flex-col items-center py-12'>
-        <div className=' bg-[#C2EFD4] w-[80%] flex flex-col items-center md:flex-row md:items-center md:justify-center gap-12'>
+        <div className=' bg-[#C2EFD4] w-[80%] flex flex-col items-center pb-4 md:flex-row md:items-center md:justify-center gap-12'>
             <div>
                 <img src={img1} className=' h-80'/>
             </div>
