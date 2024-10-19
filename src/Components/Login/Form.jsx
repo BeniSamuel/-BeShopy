@@ -1,6 +1,7 @@
 import React from 'react'
 import img from '../../assets/Hero/Hero_1.png'
 import google from '../../assets/Google.svg'
+import { Link } from 'react-router-dom'
 
 const Form = () => {
   return (
@@ -22,7 +23,7 @@ const Form = () => {
                     <p className=' font-poppins'>Signup With Google</p>
                 </button>
             </div>
-            <div className=' font-poppins'>New to site.<span className=' font-poppins text-[#224F34] font-bold'>Signup</span></div>
+            <div className=' font-poppins'>New to site.<span className=' font-poppins text-[#224F34] font-bold'><Link to="/signup">Signup</Link></span></div>
         </div>
     </div>
   )
