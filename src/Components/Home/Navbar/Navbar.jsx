@@ -9,7 +9,7 @@ const Navbar = () => {
 
       <ul className=" flex flex-col md:flex-row gap-9">
         <li className=" font-medium text-[#224F34] flex flex-col items-center cursor-pointer font-poppins" onClick={() => { setSection("home") }}><Link to="/">HOME</Link>{section === "home" ? <hr className=" bg-[#224F34] w-12 h-1 rounded-xl" /> : " "}</li>
-        <li className=" font-medium text-[#224F34] flex flex-col items-center cursor-pointer font-poppins" onClick={() => { setSection("shop") }}>SHOP {section === "shop" ? <hr className=" bg-[#224F34] w-11 h-1 rounded-xl" /> : " "}</li>
+        <li className=" font-medium text-[#224F34] flex flex-col items-center cursor-pointer font-poppins" onClick={() => { setSection("shop") }}><Link to="/shop">SHOP</Link> {section === "shop" ? <hr className=" bg-[#224F34] w-11 h-1 rounded-xl" /> : " "}</li>
         <li className=" font-medium text-[#224F34] flex flex-col items-center cursor-pointer font-poppins" onClick={() => { setSection("features") }}>FEATURES {section === "features" ? <hr className=" bg-[#224F34] w-20 h-1 rounded-xl" /> : " "}</li>
         <li className=" font-medium text-[#224F34] flex flex-col items-center cursor-pointer font-poppins" onClick={() => { setSection("contact") }}>CONTACT {section === "contact" ? <hr className=" bg-[#224F34] w-20 h-1 rounded-xl" /> : " "}</li>
       </ul>
