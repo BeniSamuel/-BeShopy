@@ -37,7 +37,7 @@ const Footer = () => {
             <div className=' flex flex-col gap-3'>
                 <div className=' text-white font-roboto'>STAY UP TO DATE</div>
                 <div className=' flex flex-row items-center'>
-                    <input type="email" placeholder='Enter Your Email' className=' bg-transparent placeholder:font-poppins placeholder:text-white border-2 border-[#A3F3BE] px-4 py-2 pl-4 outline-none text-white'/>
+                    <input type="email" placeholder='Enter Your Email' className=' bg-transparent placeholder:font-poppins placeholder:text-white border-2 border-[#A3F3BE] px-4 py-2 pl-4 outline-none text-white font-poppins'/>
                     <input type="submit" value="SUBMIT" className=' font-poppins text-[#224F34] bg-[#A3F3BE] px-4 py-[0.64rem]'/>
                 </div>
             </div>

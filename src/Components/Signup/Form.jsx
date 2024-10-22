@@ -10,7 +10,9 @@ const Form = () => {
         <img src={img} className=" h-[30rem]" />
       </div>
       <div className=" flex flex-col items-center w-1/2 gap-9">
-        <div className=" font-roboto font-medium text-xl">Signin in BeShopy</div>
+        <div className=" font-roboto font-medium text-xl">
+          Signin in BeShopy
+        </div>
         <p className=" font-poppins ">Enter Details Please</p>
         <div className=" flex flex-col gap-6">
           <input
@@ -39,8 +41,10 @@ const Form = () => {
           </button>
         </div>
         <div className=" font-poppins">
-          Already on site.
-          <span className=" font-poppins text-[#224F34] font-bold"><Link to="/login">Login</Link></span>
+          Already on site. 
+          <span className=" font-poppins text-[#224F34] font-bold">
+            <Link to="/login">Login</Link>
+          </span>
         </div>
       </div>
     </div>
