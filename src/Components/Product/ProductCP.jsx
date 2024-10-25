@@ -42,7 +42,7 @@ const ProductCP = ({ id }) => {
 
                     <ProductCu/>
 
-                    <ProdCout/>
+                    <ProdCout price={product.price}/>
                 </div>
               </div>
             )
