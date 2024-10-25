@@ -5,6 +5,7 @@ import Login from './Pages/Login/Login';
 import Signup from './Pages/Signup/Signup';
 import Shop from './Pages/Shop/Shop';
 import Product from './Pages/Product/Product';
+import Contact from './Pages/Contact/Contact';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/signup" element={<Signup/>}/>
         <Route path="/shop" element={<Shop/>} />
         <Route path="/product/:id" element={<Product/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
     </Router>
   )

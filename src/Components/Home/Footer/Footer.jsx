@@ -2,6 +2,7 @@ import React from 'react'
 import facebook from '../../../assets/Facebook.svg'
 import instagram from "../../../assets/Instagram.svg"
 import twitter from '../../../assets/Twitter.svg'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -29,7 +30,7 @@ const Footer = () => {
                 <div className=' text-white font-roboto'>COMPANY</div>
                 <ul className=' flex flex-col gap-2'>
                     <li className=' font-poppins text-[#C2EFD4]'>About Us</li>
-                    <li className=' font-poppins text-[#C2EFD4]'>Contact</li>
+                    <li className=' font-poppins text-[#C2EFD4]'><Link to="/contact">Contact</Link></li>
                     <li className=' font-poppins text-[#C2EFD4]'>News</li>
                     <li className=' font-poppins text-[#C2EFD4]'>Support</li>
                 </ul>
