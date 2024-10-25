@@ -1,9 +1,11 @@
 import React from 'react'
 import starSvg from '../../../assets/star.svg'
+import { useNavigate } from "react-router-dom"
 
 const OurCard = (props) => {
+    const navigate = useNavigate()
     return (
-        <div className=' flex flex-col gap-3'>
+        <div className=' flex flex-col gap-3 cursor-pointer'>
             {/*Product Cover*/}
             <div className=' bg-[#c2cdc6] flex flex-col items-center'>
                 <img src={props.imgSource} className=" h-60" />
@@ -21,7 +23,9 @@ const OurCard = (props) => {
                         <img src={starSvg} className=' h-4' />
                     </div>
                 </div>
+            
             </div>
+           
         </div>
     )
 }
