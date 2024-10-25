@@ -1,6 +1,7 @@
 import React from 'react'
 import products from "../../Data/OurProduct/sale";
 import starSvg from '../../assets/star.svg'
+import ProductCu from './ProductCu';
 
 const ProductCP = ({ id }) => {
   return (
@@ -37,6 +38,10 @@ const ProductCP = ({ id }) => {
                      Porro, sed tempora maiores perspiciatis tempore ratione<br/> 
                      delectus repellat pariatur quasi mollitia, nam sunt exercitationem<br/> 
                      doloremque obcaecati eaque libero totam beatae error?</p>
+
+                    <ProductCu/>
+
+                    
                 </div>
               </div>
             )
