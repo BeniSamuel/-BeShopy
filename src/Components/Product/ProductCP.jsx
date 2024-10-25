@@ -2,6 +2,7 @@ import React from 'react'
 import products from "../../Data/OurProduct/sale";
 import starSvg from '../../assets/star.svg'
 import ProductCu from './ProductCu';
+import ProdCout from './ProdCout';
 
 const ProductCP = ({ id }) => {
   return (
@@ -41,7 +42,7 @@ const ProductCP = ({ id }) => {
 
                     <ProductCu/>
 
-                    
+                    <ProdCout/>
                 </div>
               </div>
             )
