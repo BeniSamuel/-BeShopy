@@ -69,7 +69,6 @@ If you’re a developer who wants to contribute or experiment with BeShopy, foll
 1. **Clone the repository:**
 
    ```bash
-   Copy code
    git clone https://github.com/yourusername/beshopy.git
    cd beshopy
 
@@ -88,7 +87,6 @@ npm install
 ## Run the development server:
 
 ```bash
-Copy code
 npm start
 ```
 
@@ -100,7 +98,6 @@ npm start
 Before starting, you’ll need to create a .env file to store environment variables. Use the example below:
 
 ```env
-Copy code
 REACT_APP_API_URL="your_backend_api_url"
 REACT_APP_GOOGLE_ANALYTICS_ID="your_ga_id"
 ```
@@ -109,7 +106,6 @@ REACT_APP_GOOGLE_ANALYTICS_ID="your_ga_id"
 To build the app for production:
 
 ```bash
-Copy code
 npm run build
 ```
 
@@ -124,4 +120,4 @@ Contributions make BeShopy better! If you have suggestions, ideas, or improvemen
 
 If you have any questions, feedback, or issues, please open an issue on GitHub. We’d love to hear from you! 😊
 
-> ## Made with ❤️ by Beni Samuel
+> # Made with ❤️ by Beni Samuel
