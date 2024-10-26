@@ -26,6 +26,7 @@ const ProdCout = (props) => {
             <div className=' font-poppins'>
                 ${props.price * count}
             </div>
+            <button className=' text-white font-poppins bg-[#224F34] px-6 py-2'>Add to Cart</button>
         </div>
         
     </div>

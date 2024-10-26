@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <div className=' py-14 bg-[#224F34] flex flex-col gap-16'>
-        <div className=' flex flex-col gap-8 md:flex-row md:gap-40 md:justify-center '>
+        <div className=' flex flex-col px-6 gap-8 md:flex-row md:gap-40 md:justify-center '>
             <div className=' flex flex-col gap-3'>
                 <div className=' text-2xl text-white font-bold font-rufina'>BeShopy</div>
                 <p className=' font-roboto text-white'>Social Media</p>

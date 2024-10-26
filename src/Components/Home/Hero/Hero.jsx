@@ -3,7 +3,7 @@ import hero_img from '../../../assets/Hero/Hero_1.png'
 
 const Hero = () => {
     return (
-        <div className=' flex flex-col gap-12 items-center md:flex-row md:items-center md:justify-between  bg-[#C5F5D6] px-20 md:h-[90vh]'>
+        <div className=' flex flex-col py-12 gap-12 items-center md:flex-row md:items-center md:justify-between  bg-[#C5F5D6] px-20 md:h-[90vh]'>
             <div className=' flex flex-col gap-6'>
                 <div className=' text-[#224F34] font-bold text-3xl md:text-5xl font-rufina'>
                     Discover fine product<br />
