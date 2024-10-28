@@ -23,7 +23,16 @@ const App = () => {
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/cart" element={<Cart/>} />
         </Routes>
-        <Toaster/>
+        <Toaster
+          position='bottom-right'
+          toastOptions={{
+            style: {
+              color: "black",
+              fontFamily: "poppins",
+              duration: 10000
+            }
+          }}
+        />
       </Router>
     </CartProvider>
     

@@ -1,6 +1,7 @@
 // ProdCout.jsx
 import React, { useState } from 'react';
 import cartData from '../../Data/Cart/cart';
+import { toast } from "react-hot-toast";
 
 const ProdCout = (props) => {
   const [count, setCount] = useState(1);
@@ -17,6 +18,7 @@ const ProdCout = (props) => {
 
   function handleClick() {
     cartData.push(props.prod);  // Use props.prod instead of props.product
+    toast.success("Added to Cart")
   }
 
   return (
