@@ -5,7 +5,7 @@ import left from "../../../assets/Testimonial/Testimonial_Left.svg";
 import icon from "../../../assets/Testimonial/Testimonial_Icon.svg"
 
 const TestMapping = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(1);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
