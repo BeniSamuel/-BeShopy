@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import cart from "../../../assets/cart.svg";
+import CartCount from "../../Cart/CartCount";
 
 const Navbar = () => {
   const location = useLocation();
@@ -81,10 +82,11 @@ const Navbar = () => {
         </ul>
 
         <div className="flex flex-col md:flex-row items-center gap-5 mt-4 md:mt-0">
-          <div>
+          <div className=" flex flex-row">
             <Link to="/cart">
               <img src={cart} className="w-7" alt="Cart Icon" />
             </Link>
+            <CartCount/>
           </div>
           <button className="border-[#224F34] border-2 px-7 py-2 text-[#224F34] font-poppins">
             <Link to="/login" onClick={() => setIsMobileMenuOpen(false)}>

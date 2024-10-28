@@ -3,8 +3,10 @@ import products from "../../Data/OurProduct/sale";
 import starSvg from '../../assets/star.svg'
 import ProductCu from './ProductCu';
 import ProdCout from './ProdCout';
+import CartProvider from '../../Context/CartProvider';
 
 const ProductCP = ({ id }) => {
+
   return (
     <div>
       {
@@ -42,7 +44,7 @@ const ProductCP = ({ id }) => {
 
                     <ProductCu/>
 
-                    <ProdCout price={product.price}/>
+                    <ProdCout price={product.price} prod={product}/>
                 </div>
               </div>
             )
